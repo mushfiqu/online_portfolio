@@ -30,3 +30,7 @@ body {
   font-family: "burtons";
   src: url("../app/public/Burtons.otf");
 }
+
+html {
+  scroll-behavior: smooth;
+}
