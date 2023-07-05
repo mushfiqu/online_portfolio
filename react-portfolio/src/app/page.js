@@ -24,7 +24,7 @@ export default function Home() {
       <nav className = "p-10 mb-12 flex justify-between">
           <ul className = "flex items-center">
             <li>
-              <SiGmail class = "text-red-700 hover:text-red-500 duration-300"/>
+              <SiGmail class = "text-red-700 hover:text-red-500 duration-500"/>
             </li>
             <li>
               <a className = "px-4 py-2">
