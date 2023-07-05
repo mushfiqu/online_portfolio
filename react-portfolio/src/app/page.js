@@ -24,7 +24,7 @@ export default function Home() {
       <nav className = "p-10 mb-12 flex justify-between">
           <ul className = "flex items-center">
             <li>
-              <SiGmail class = "text-red-700 hover:text-red-500"/>
+              <SiGmail class = "text-red-700 hover:text-red-500 duration-300"/>
             </li>
             <li>
               <a className = "px-4 py-2">
@@ -60,10 +60,10 @@ export default function Home() {
         <section className = "min-h-screen">
           <div className = "text-5xl flex justify-center gap-16 py-3 text-blue-800">
             <a href = "https://www.linkedin.com/in/mushfique-un-nabi-11657226a/">
-            <AiFillLinkedin class = "hover:animate-bounce"/>
+            <AiFillLinkedin class = "hover:text-blue-500 duration-500"/>
             </a>
             <a href = "https://github.com/mushfiqu">
-            <BsGithub class = "hover:animate-bounce"/>
+            <BsGithub class = "hover:text-purple-400 duration-500"/>
             </a>
           </div>
           <div className='relative mx-auto w-13 h-13'>
@@ -115,7 +115,7 @@ export default function Home() {
               </span>
            <h3 class = "text-3xl py-3 text-gray-700 hover:text-4xl duration-500">Projects</h3> 
            <div class="grid grid-cols-3 gap-2">
-           <div class="max-w-sm rounded overflow-hidden shadow-lg">
+           <div class="max-w-sm rounded overflow-hidden shadow-lg hover:scale-110 duration-500">
             <Image class="w-full" src = {wildfire}/>
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">UAlberta EE Capstone: UV Detection of Wildfires</div>
@@ -126,7 +126,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg hover:scale-110 duration-500">
             <Image class="w-full" src = {chemical_plant}/>
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">HackED 2022: Plastic Pyrolysis Reactor</div>
@@ -143,7 +143,7 @@ export default function Home() {
             </a> 
             </div>
           </div>
-          <div class="max-w-sm rounded overflow-hidden shadow-lg">
+          <div class="max-w-sm rounded overflow-hidden shadow-lg hover:scale-110 duration-500">
             <Image class="w-full" src = {encmp}/>
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">ENCMP100 Programming Competition: Battle for Earth</div>
